@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-button {
+#button {
   border: none;
   outline: none;
   width: 100%;
@@ -18,7 +18,7 @@ button {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  background: #603bbb;
+  background: #362364;
   cursor: pointer;
 }
 
@@ -29,7 +29,7 @@ button {
   max-width: 520px;
   min-height: 600px;
   display: flex;
-  background-color: #8357f3;
+  background-color: #6b37eeb0;
   border-radius: 4px;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +53,7 @@ button {
   background: rgba(241, 241, 241, 0.651);
   color: #fff;
   letter-spacing: 1px;
+  border-radius: 2px;
 }
 
 .login .loginContainer .btnContainer {
@@ -99,8 +100,9 @@ h1 {
   padding: 20px 0;
 }
 
-.welcome button {
+#logOutButton {
   width: 86px;
   padding: 8px 0;
   background: #3a2b58;
+  color: #fff;
 }

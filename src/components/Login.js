@@ -1,3 +1,4 @@
+import { Button } from '@mui/material'
 import React from 'react'
 
 export const Login = ({
@@ -36,7 +37,9 @@ export const Login = ({
         <div className="btnContainer">
           {!hasAccount ? (
             <>
-              <button onClick={handleLogin}>Sign in</button>
+              <Button id="button" onClick={handleLogin}>
+                Sign in
+              </Button>
               <p>
                 Don't have an account ?{' '}
                 <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
@@ -44,7 +47,9 @@ export const Login = ({
             </>
           ) : (
             <>
-              <button onClick={handleSignUp}>Sign up</button>
+              <Button id="button" onClick={handleSignUp}>
+                Sign up
+              </Button>
               <p>
                 Have an account?{' '}
                 <span onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
