@@ -15,7 +15,7 @@ export const Login = ({
   return (
     <section className="login">
       <div className="loginContainer">
-        <label>Username</label>
+        <label>Email</label>
         <input
           type="text"
           autoFocus
